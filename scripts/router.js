@@ -21,7 +21,7 @@ createStudentData = function(event){
     var qualification = document.querySelector('#qualification').value;
     var gender = document.querySelector("[name='gender']").value;
     id = document.createElement("td");
-    id.innerText = counter++;
+    id.innerText = ++counter;
     fname = document.createElement("td");
     fname.innerText = firstName;
     lname = document.createElement("td");
